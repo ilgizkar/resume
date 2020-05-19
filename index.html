@@ -528,29 +528,23 @@
                     <h3>Отправить сообщение</h3>
                   </div>
                   <form action="https://formspree.io/mgenolvw" method="POST">
-
-                    <div class="messages"></div>
-
                     <div class="controls">
                       <div class="form-group">
-                          <input id="form_name" type="text" name="name" class="form-control" placeholder="Имя" required="required" data-error="Поле Имя обязательно">
+                          <input id="form_name" type="text" name="name" class="form-control" placeholder="Имя" required="required">
                           <div class="form-control-border"></div>
                           <i class="form-control-icon fa fa-user"></i>
-                          <div class="help-block with-errors"></div>
                       </div>
 
                       <div class="form-group">
-                          <input id="form_email" type="email" name="_replyto" class="form-control" placeholder="Email" required="required" data-error="Введите корректный email">
+                          <input id="form_email" type="email" name="_replyto" class="form-control" placeholder="Email" required="required">
                           <div class="form-control-border"></div>
                           <i class="form-control-icon fa fa-envelope"></i>
-                          <div class="help-block with-errors"></div>
                       </div>
 
                       <div class="form-group">
-                          <textarea id="form_message" name="message" class="form-control" placeholder="Сообщение" rows="4" required="required" data-error="Поле сообщения не должно быть пустым"></textarea>
+                          <textarea id="form_message" name="message" class="form-control" placeholder="Сообщение" rows="4" required="required"></textarea>
                           <div class="form-control-border"></div>
                           <i class="form-control-icon fa fa-comment"></i>
-                          <div class="help-block with-errors"></div>
                       </div>
                       <input type="submit" class="button btn-send" value="Отправить">
                     </div>
