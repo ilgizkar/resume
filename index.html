@@ -23,12 +23,25 @@
     <!-- This styles needs for demo -->
     <link rel="stylesheet" href="preview/lmpixels-demo-panel.css" type="text/css">
     <style>
+        .my-photo img {
+            max-width: 300px !important;
+            max-height: 450px !important;
+            min-height: 0;
+            top: 150px !important;
+        }
         .chat {
             height: 225px;
         }
         @media (max-width: 480px) {
             .chat {
                 height: 335px;
+            }
+            .my-photo-small img {
+                height: 265px !important;
+                border-radius: 0 !important;
+            }
+            .my-photo-small {
+                margin: -20px auto 80px !important;
             }
         }
 
@@ -55,7 +68,7 @@
       <!-- Header -->
       <header id="site_header" class="header">
         <div class="my-photo">
-          <img src="images/my_photo.jpg" alt="image">
+          <img src="images/avatar.jpeg" alt="image">
           <div class="mask"></div>
         </div>
 
@@ -120,7 +133,7 @@
               <div class="row">
                 <div class="col-sm-12 col-md-12 mobile-visible subpage-block">
                   <div class="my-photo-small">
-                    <img src="images/photo_small.jpg" alt="image">
+                    <img src="images/avatar.jpeg" alt="image">
                   </div>
                 </div>
                 <div class="col-sm-6 col-md-8 subpage-block">
@@ -150,7 +163,7 @@
               </div>
 
               <div class="row">
-                <div class="col-sm-6 col-md-3 subpage-block">
+                <div class="col-xs-6 col-md-3 subpage-block">
                   <div class="service-block"> 
                     <div class="service-info">
                       <img src="images/service/php.png" alt="Responsive Design">
@@ -159,7 +172,7 @@
                   </div>
                 </div>
 
-                <div class="col-sm-6 col-md-3 subpage-block">
+                <div class="col-xs-6 col-md-3 subpage-block">
                   <div class="service-block"> 
                     <div class="service-info">
                       <img src="images/service/html.png" alt="Copywriter">
@@ -168,7 +181,7 @@
                   </div>
                 </div>
 
-                <div class="col-sm-6 col-md-3 subpage-block">
+                <div class="col-xs-6 col-md-3 subpage-block">
                   <div class="service-block"> 
                     <div class="service-info">
                       <img src="images/service/javascript.png" alt="E-Commerce">
@@ -177,7 +190,7 @@
                   </div>
                 </div>
 
-                <div class="col-sm-6 col-md-3 subpage-block">
+                <div class="col-xs-6 col-md-3 subpage-block">
                   <div class="service-block"> 
                     <div class="service-info">
                       <img src="images/service/laravel.png" alt="Management">
@@ -188,7 +201,7 @@
               </div>
 
               <div class="row">
-                <div class="col-sm-6 col-md-3 subpage-block">
+                <div class="col-xs-6 col-md-3 subpage-block">
                   <div class="service-block"> 
                     <div class="service-info">
                       <img src="images/service/redis.png" alt="Responsive Design">
@@ -197,7 +210,7 @@
                   </div>
                 </div>
 
-                <div class="col-sm-6 col-md-3 subpage-block">
+                <div class="col-xs-6 col-md-3 subpage-block">
                   <div class="service-block"> 
                     <div class="service-info">
                       <img src="images/service/git.png" alt="Copywriter">
@@ -206,7 +219,7 @@
                   </div>
                 </div>
 
-                <div class="col-sm-6 col-md-3 subpage-block">
+                <div class="col-xs-6 col-md-3 subpage-block">
                   <div class="service-block"> 
                     <div class="service-info">
                       <img src="images/service/mysql.png" alt="E-Commerce">
@@ -215,7 +228,7 @@
                   </div>
                 </div>
 
-                <div class="col-sm-6 col-md-3 subpage-block">
+                <div class="col-xs-6 col-md-3 subpage-block">
                   <div class="service-block"> 
                     <div class="service-info">
                       <img src="images/service/restful.png" alt="Management">
@@ -226,7 +239,7 @@
               </div>
 
               <div class="row">
-                <div class="col-sm-6 col-md-3 subpage-block">
+                <div class="col-xs-6 col-md-3 subpage-block">
                   <div class="service-block"> 
                     <div class="service-info">
                       <img src="images/service/ajax.png" alt="Responsive Design">
@@ -235,7 +248,7 @@
                   </div>
                 </div>
 
-                <div class="col-sm-6 col-md-3 subpage-block">
+                <div class="col-xs-6 col-md-3 subpage-block">
                   <div class="service-block"> 
                     <div class="service-info">
                       <img src="images/service/bootstrap.png" alt="Copywriter">
@@ -244,7 +257,7 @@
                   </div>
                 </div>
 
-                <div class="col-sm-6 col-md-3 subpage-block">
+                <div class="col-xs-6 col-md-3 subpage-block">
                   <div class="service-block"> 
                     <div class="service-info">
                       <img src="images/service/jquery.png" alt="E-Commerce">
@@ -253,7 +266,7 @@
                   </div>
                 </div>
 
-                <div class="col-sm-6 col-md-3 subpage-block">
+                <div class="col-xs-6 col-md-3 subpage-block">
                   <div class="service-block"> 
                     <div class="service-info">
                       <img src="images/service/json.png" alt="Management">
